@@ -1,0 +1,155 @@
+/*centrelizar a tela*/
+			#centro {
+				width:1000px; 
+				margin: 0 auto; 
+				text-align:left;
+			}
+				
+			#topo {
+				height:100px; 
+			}
+
+			#titulo {
+				width:550px;
+				float: left;
+			}
+			
+			#login {
+				width:450px;
+				float: left;
+			} 
+			
+			#conteudo {
+				float: right;
+				width: 77%;
+				margin: 0 auto;
+			}	
+			
+			#rodape {
+				clear:both;
+				background:#000000; 
+				color:#fff;
+				text-align:center;
+				font-family:arial, verdana, sans-serif; 
+				font-size: 12px;
+			}
+
+			.campos label input{
+				display: block;
+				float: rigth;
+			}
+
+			.campos label {	
+				text-align: right;
+				float: rigth;
+			}
+
+			.campos br {
+				clear: left;
+			}
+
+		/*Formata como as fotos serão exibidas*/
+			.conteinerfoto { 
+   				float:left; 
+   				width:210px; 
+				height:180px; 
+   				margin: 10px; 
+   				padding:5px; 
+   				background-color:#f5f7f9; 
+   				border-right: #a5a7aa solid 1px; 
+   				border-bottom: #a5a7aa solid 1px; 
+   				text-align:center;
+			}
+
+		/*Inicio do menu horizontal*/
+			.menu_h {
+				padding:0 0 0 32px;
+				margin:0; 
+				list-style:none; 
+				height:35px; 
+				background:#fff url(button1.gif); 
+				position:relative; 
+				border:1px solid #000; 
+				border-width:0 1px; 
+				border-bottom:1px solid #444;
+			}
+
+			.menu_h li {float:right;}
+			
+			.menu_h li a {
+				display:block; 
+				float:left; 
+				height:35px; 
+				line-height:35px; 
+				color:#aaa; 
+				text-decoration:none; 
+				font-size:11px; 
+				font-family:arial, verdana, sans-serif; 
+				font-weight:bold; 
+				text-align:center; 
+				padding:0 0 0 8px; 
+				cursor:pointer;
+			}
+
+			.menu_h li a b {
+				float:left; 
+				display:block; 
+				padding:0 16px 0 8px;
+			}
+
+			.menu_h li.sub a {
+				color:#fff; 
+				background:url(button3.gif);
+			}
+
+			.menu_h li.sub a b {background:url(button3.gif) no-repeat right top;}
+			
+			.menu_h li a:hover {
+				color:#fff; 
+				background:#000 url(button2.gif);
+			}
+			.menu_h li a:hover b {background:url(button2.gif) no-repeat right top;}
+
+			.menu_h li.sub a:hover {
+				color:#fff; background:#000 url(button3.gif); 
+				cursor:default;
+			}
+
+			.menu_h li.sub a:hover b {background:url(button3.gif) no-repeat right top;}
+		
+		/*inicio do menu vertical*/
+			.menu_v {
+				float: left;
+				width: 23%;
+				margin:0;
+				list-style-type: none;			
+				margin: 0;
+				padding: 0px;
+				border-bottom: 1px solid #ccc;
+				text-align: left;
+				position:relative;
+			}
+			
+			.menu_v li {			
+				margin: 0;
+				padding: 0px;
+				border-bottom: 1px solid #ccc;
+				text-align: left;
+				list-style-type: none;
+			}
+			
+			.menu_v li a {
+				background: #F5F5F5;
+				color:#666; 
+				font-weight: bold;
+				text-decoration: none;
+				padding: 8px;
+				display: block;
+			}
+						
+			.menu_v li a:hover {
+				background: #B749EC0;
+				color:#000;
+				font-size: 15px; 
+			}
+		/*fim do menu vertical*/
